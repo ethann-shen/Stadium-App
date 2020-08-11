@@ -3,31 +3,39 @@ library(shiny)
 library(shinyWidgets)
 library(leaflet)
 
-source("source/epl.R")
-source("source/laliga.R")
-source("source/serieA.R")
+#source("source/epl.R")
+#source("source/laliga.R")
+#source("source/serieA.R")
 #source("source/bund.R")
 #source("source/ligue.R")
-source("source/MLS.R")
+#source("source/MLS.R")
 
-EPL <- read_rds("EPL.rds")
-LaLiga <- read_rds("LaLiga.rds")
-SerieA <- read_rds("SerieA.rds")
-#Bund <- read_rds("Bund.rds")
-#Ligue1 <- read_rds("Ligue1.rds")
-MLS <- read_rds("MLS.rds")
+EPL <- read_rds("data/rds/EPL.rds")
+LaLiga <- read_rds("data/rds/LaLiga.rds")
+SerieA <- read_rds("data/rds/SerieA.rds")
+Bund <- read_rds("data/rds/Bund.rds")
+Ligue1 <- read_rds("data/rds/Ligue1.rds")
+MLS <- read_rds("data/rds/MLS.rds")
+
+PL_data_app <- read_csv("data/csv/premier_league_data.csv")
+LaLiga_data_app <- read_csv("data/csv/la_liga_data.csv")
+serieA_data_app <- read_csv("data/csv/serie_A_data.csv")
+Bund_data_app <- read_csv("data/csv/bundesliga_data.csv")
+ligue1_data_app <- read_csv("data/csv/ligue1_data.csv")
+MLS_data_app <- read_csv("data/csv/USA.csv") %>% 
+  mutate(Season = paste0(Season-1, "-", Season))
 
 colnames(LaLiga) <- colnames(EPL)
 colnames(SerieA) <- colnames(EPL)
-#colnames(Bund) <- colnames(EPL)
-#colnames(Ligue1) <- colnames(EPL)
+colnames(Bund) <- colnames(EPL)
+colnames(Ligue1) <- colnames(EPL)
 colnames(MLS) <- colnames(EPL)
 
 all_stadiums_data = bind_rows(EPL, 
                               LaLiga, 
                               SerieA,
-                              #Bund, 
-                              #Ligue1,
+                              Bund, 
+                              Ligue1,
                               MLS) %>% 
   mutate(`Capacity †`= str_remove_all(`Capacity †`, "\\[.*\\]")) %>% 
   filter(!is.na(team_logo))
@@ -35,8 +43,8 @@ all_stadiums_data = bind_rows(EPL,
 all_teams_data = bind_rows(PL_data_app, 
                            LaLiga_data_app, 
                            serieA_data_app, 
-                           #Bund_data_app, 
-                           #ligue1_data_app,
+                           Bund_data_app, 
+                           ligue1_data_app,
                            MLS_data_app %>% 
                              select(Country, Home, Season) %>% 
                              rename(country = Country) %>% 
@@ -58,12 +66,12 @@ ui <- bootstrapPage(
   absolutePanel(top = 20, right = 10,
                 pickerInput("stadium_country", label = "Select a Country:",
                             choices = 
-                              # list("All Countries", 
-                              #      "Europe" = c("England", "France", "Italy", "Germany", "France"),
-                              #      "North America"= c("USA")),
-                              c("All Countries",
-                                        unique(all_stadiums_data$Country)
-                            ),
+                              list("All Countries",
+                                   "Europe" = c("England", "Spain", "Italy", "Germany", "France"),
+                                   "North America"= c("USA")),
+                            #   c("All Countries",
+                            #             unique(all_stadiums_data$Country)
+                            # ),
                             options = list(`live-search` = TRUE))
   ),
   absolutePanel(top = 90, right = 10,
@@ -119,7 +127,7 @@ server <- function(input, output) {
       
       # filtered_stadiums_data %>% 
       # pull(team_logo),
-      iconWidth = 25, iconHeight = 25
+      iconWidth = 35, iconHeight = 35
     )
     
     labels = sprintf("<strong>%s</strong><br/>%s",
