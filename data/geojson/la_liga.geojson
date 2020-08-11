@@ -1,0 +1,491 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.852142,
+          38.981117
+        ]
+      },
+      "properties": {
+        "stadium": "Estadio Carlos Belmonte",
+        "groundid": "345",
+        "teamid": "518",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Albacete Balompié "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.948392,
+          43.263506
+        ]
+      },
+      "properties": {
+        "stadium": "San Mamés Stadium",
+        "groundid": "353",
+        "teamid": "545",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Athletic Bilbao"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72046,
+          40.401699
+        ]
+      },
+      "properties": {
+        "stadium": "Estadio Vicente Calderon",
+        "groundid": "326",
+        "teamid": "526",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Athletico Madrid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.122831,
+          41.380889
+        ]
+      },
+      "properties": {
+        "stadium": "Nou Camp",
+        "groundid": "344",
+        "teamid": "544",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.739711,
+          42.211842
+        ]
+      },
+      "properties": {
+        "stadium": "Balaídos",
+        "groundid": "364",
+        "teamid": "556",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Celta de Vigo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.688044,
+          42.837111
+        ]
+      },
+      "properties": {
+        "stadium": "Mendizorrotza Stadium",
+        "groundid": "1056",
+        "teamid": "1200",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Deportivo Alavés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.417516,
+          43.368714
+        ]
+      },
+      "properties": {
+        "stadium": "Estadio Riazor",
+        "groundid": "348",
+        "teamid": "521",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Deportivo de La Coruna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.475803,
+          43.181706
+        ]
+      },
+      "properties": {
+        "stadium": "Ipurua Municipal Stadium",
+        "groundid": "1057",
+        "teamid": "1201",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Eibar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.075667,
+          41.347861
+        ]
+      },
+      "properties": {
+        "stadium": "Estadi Cornellà-El Prat",
+        "groundid": "349",
+        "teamid": "522",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Espanyol"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.714722,
+          40.325556
+        ]
+      },
+      "properties": {
+        "stadium": "Coliseum Alfonso Pérez",
+        "groundid": "354",
+        "teamid": "546",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Getafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.595736,
+          37.152967
+        ]
+      },
+      "properties": {
+        "stadium": "Estadio Nuevo Los Cármenes",
+        "groundid": "355",
+        "teamid": "547",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Granada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.456667,
+          28.1
+        ]
+      },
+      "properties": {
+        "stadium": "Estadio Gran Canaria",
+        "groundid": "1058",
+        "teamid": "1202",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Las Palmas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7607,
+          40.3404
+        ]
+      },
+      "properties": {
+        "stadium": "Estadio Municipal de Butarque",
+        "groundid": "1059",
+        "teamid": "1203",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Leganés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.364167,
+          39.494722
+        ]
+      },
+      "properties": {
+        "stadium": "Estadi Ciutat de València",
+        "groundid": "356",
+        "teamid": "548",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Levante"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.426422,
+          36.734092
+        ]
+      },
+      "properties": {
+        "stadium": "Estadio La Rosaleda",
+        "groundid": "350",
+        "teamid": "523",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Malaga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.63,
+          39.59
+        ]
+      },
+      "properties": {
+        "stadium": "Iberostar Stadium",
+        "groundid": "351",
+        "teamid": "524",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Mallorca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.636944,
+          42.796667
+        ]
+      },
+      "properties": {
+        "stadium": "Reyno de Navarra Stadium",
+        "groundid": "352",
+        "teamid": "525",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Osasuna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.793333,
+          43.476389
+        ]
+      },
+      "properties": {
+        "stadium": "Campos de Sport de El Sardinero",
+        "groundid": "357",
+        "teamid": "549",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Racing Santander"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.658961,
+          40.391944
+        ]
+      },
+      "properties": {
+        "stadium": "Campo de Fútbol de Vallecas",
+        "groundid": "358",
+        "teamid": "550",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Rayo Vallecano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.981389,
+          37.356389
+        ]
+      },
+      "properties": {
+        "stadium": "Estadio Benito Villamarín",
+        "groundid": "347",
+        "teamid": "520",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Real Betis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.685849,
+          40.451731
+        ]
+      },
+      "properties": {
+        "stadium": "San Bernabau",
+        "groundid": "325",
+        "teamid": "527",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Real Madrid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.973617,
+          43.301378
+        ]
+      },
+      "properties": {
+        "stadium": "Anoeta Stadium",
+        "groundid": "359",
+        "teamid": "551",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Real Sociedad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.901822,
+          41.636592
+        ]
+      },
+      "properties": {
+        "stadium": "La Romareda",
+        "groundid": "363",
+        "teamid": "555",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Real Zaragoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9705,
+          37.384
+        ]
+      },
+      "properties": {
+        "stadium": "Estadio Ramón Sánchez Pizjuán",
+        "groundid": "360",
+        "teamid": "552",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Sevilla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.637222,
+          43.536111
+        ]
+      },
+      "properties": {
+        "stadium": "El Molinón",
+        "groundid": "361",
+        "teamid": "553",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Sporting de Gijón"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.358361,
+          39.474656
+        ]
+      },
+      "properties": {
+        "stadium": "Mestalla",
+        "groundid": "952",
+        "teamid": "1102",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Valencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.103611,
+          39.944167
+        ]
+      },
+      "properties": {
+        "stadium": "Estadio El Madrigal",
+        "groundid": "362",
+        "teamid": "554",
+        "leagueid": "SPAIN",
+        "leaguename": "Spain",
+        "team": "Villarreal "
+      }
+    }
+  ]
+}
